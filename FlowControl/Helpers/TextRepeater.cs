@@ -14,9 +14,9 @@ namespace FlowControl.Helpers
             string input = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(input))
             {
-                for (int i = 0; i <= 10; i++)
+                for (int i = 0; i < 10; i++)
                 {
-                    Console.WriteLine($"{i}. {input}");
+                    Console.Write($" {i+1}.{input} ");
                 }
             }
             else
