@@ -43,7 +43,7 @@ namespace FlowControl
                             break;
 
                         case MenuOptions.ThirdWord:
-                            Console.WriteLine("Here we will implement method later");
+                            SentenceParser.GetThirdWord();
                             break;
 
                         default:
