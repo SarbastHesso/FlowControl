@@ -31,15 +31,15 @@ namespace FlowControl
                             break;
 
                         case MenuOptions.SingleTicket:
-                            TicketHelper.SingleTicketCalculator.CalcSingleTicket();
+                            SingleTicketCalculator.CalcSingleTicket();
                             break;
 
                         case MenuOptions.GroupTicket:
-                            Console.WriteLine("Here we will implement method later");
+                            GroupTicketCalculator.CalcGroupTicket();
                             break;
 
                         case MenuOptions.RepeatText:
-                            Console.WriteLine("Here we will implement method later");
+                            TextRepeater.RepeatInput();
                             break;
 
                         case MenuOptions.ThirdWord:
